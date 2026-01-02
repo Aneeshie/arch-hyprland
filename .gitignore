@@ -1,0 +1,59 @@
+# Electron and application cache directories
+Electron/
+warp/
+warp-terminal/
+
+# Application data and caches
+discord/
+spotify/
+mozilla/
+
+# System and runtime directories
+dconf/
+pulse/
+
+# Build artifacts and dependencies
+go/
+yay/
+
+# Cache directories
+**/Cache/
+**/cache/
+**/GPUCache/
+**/Code Cache/
+**/Crashpad/
+**/Local Storage/
+**/Session Storage/
+**/IndexedDB/
+**/Service Worker/
+**/shared_proto_db/
+**/VideoDecodeStats/
+**/blob_storage/
+**/component_crx_cache/
+
+# Logs
+**/logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+
+# WebGPU and Graphics cache
+**/DawnWebGPUCache/
+**/DawnGraphiteCache/
+
+# CDM and DRM
+**/WidevineCdm/
+
+# Sentry and crash reports
+**/sentry/
+
+# Lock files (application state)
+**/Dictionaries/
+**/Shared Dictionary/
+
+# Web storage
+**/WebStorage/
